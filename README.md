@@ -3,10 +3,6 @@
 This repository contains the source code for the paper "An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming".
 This works propose an approach to design a Reinforcement Learning (RL) environment using Constraint Programming (CP) and a training algorithm that does not rely on any custom reward or observation for the job-shop scheduling (JSS) problem.
 
-Check out our HugginFace 🤗 [Space demo](https://huggingface.co/spaces/pierretassel/JobShopCPRL):
-
-[![Title](space.png)](https://huggingface.co/spaces/pierretassel/JobShopCPRL)
-
 
 ## Installation
 
@@ -18,8 +14,9 @@ git clone https://github.com/ingambe/End2End-Job-Shop-Scheduling-CP.git
 
 It is recommended to create a new virtual environment (optional) and install the required dependencies using:
 
+[Click](https://lkhagvasuren-my.sharepoint.com/:u:/g/personal/munkherdene_mirai-technologies_com/EQ4HUv8MZZFNlwuSNSdOW3YBaGfZrWKUu0OGdLTijGQp1w?e=uxncNN) to download IBM ILOG CPLEX Optimization Studio installer file, and move it to the ./environment/solver/ folder.
+
 ```bash
-# pip install -r requirements.txt
 chmod +x install.sh
 
 ./install.sh
