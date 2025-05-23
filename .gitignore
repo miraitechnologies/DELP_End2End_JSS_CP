@@ -1,6 +1,7 @@
 wandb/*
 wandb/**/*
-venv/*
-venv/**/*
-env/*
-env/**/*
+.virEnv/*
+.virEnv/**/*
+__pycache__/*
+runs/*
+enviroment/__pycache__/*

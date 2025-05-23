@@ -11,7 +11,8 @@ from typing import List
 import ray
 import torch
 import torch.optim as optim
-from compiled_jss.CPEnv import CompiledJssEnvCP
+# from compiled_jss.CPEnv import CompiledJssEnvCP
+from enviroment.CpEnv_original import CompiledJssEnvCP
 
 from torch.utils.tensorboard import SummaryWriter
 from torch.utils.data import DataLoader, TensorDataset
@@ -40,7 +41,7 @@ class Experience:
 
 
 @ray.remote(num_cpus=0)
-def compute_trajectory(fn_env, history: List, solution_agent: List, make_span_agent: int, agent: Agent, all_actions: List, time_limit: int = 30) -> Tuple[Experience, float]:
+def compute_trajectory(fn_env, history: List, solution_agent: List, make_span_agent: int, agent: Agent, all_actions: List, time_limit: int = 30) -> tuple[Experience, float]:
     with torch.no_grad():
         env: CompiledJssEnvCP = fn_env()
         env.training_mode = False

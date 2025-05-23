@@ -6,7 +6,9 @@ import time
 import json
 
 import pandas as pd
-from compiled_jss.CPEnv import CompiledJssEnvCP
+
+#from compiled_jss.CPEnv import CompiledJssEnvCP
+from enviroment.CpEnv_original import CompiledJssEnvCP
 
 from stable_baselines3.common.vec_env import VecEnvWrapper
 from torch.distributions import Categorical

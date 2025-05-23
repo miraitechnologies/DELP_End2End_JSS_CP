@@ -7,3 +7,6 @@ stable-baselines3==1.6.2
 plotly==5.11.0
 wandb==0.15.11
 ortools~=9.7.2996
+docplex
+tensorboard
+numpy==1.26
