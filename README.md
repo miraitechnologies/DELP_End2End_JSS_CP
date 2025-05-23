@@ -19,7 +19,10 @@ git clone https://github.com/ingambe/End2End-Job-Shop-Scheduling-CP.git
 It is recommended to create a new virtual environment (optional) and install the required dependencies using:
 
 ```bash
-pip install -r requirements.txt
+# pip install -r requirements.txt
+chmod +x install.sh
+
+./install.sh
 ```
 
 **Alternatively, you can build a docker container using the docker file at the root of the repository**

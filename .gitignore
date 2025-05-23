@@ -5,3 +5,4 @@ wandb/**/*
 __pycache__/*
 runs/*
 enviroment/__pycache__/*
+enviroment/solver/cplex_studio2211.linux_x86_64.bin
