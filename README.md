@@ -14,7 +14,7 @@ git clone https://github.com/ingambe/End2End-Job-Shop-Scheduling-CP.git
 
 It is recommended to create a new virtual environment (optional) and install the required dependencies using:
 
-[Click](https://lkhagvasuren-my.sharepoint.com/:u:/g/personal/munkherdene_mirai-technologies_com/EQ4HUv8MZZFNlwuSNSdOW3YBaGfZrWKUu0OGdLTijGQp1w?e=uxncNN) to download IBM ILOG CPLEX Optimization Studio installer file, and move it to the ./environment/solver/ folder.
+[Click](https://lkhagvasuren-my.sharepoint.com/:u:/g/personal/munkherdene_mirai-technologies_com/EQ4HUv8MZZFNlwuSNSdOW3YBaGfZrWKUu0OGdLTijGQp1w?e=uxncNN) to download IBM ILOG CPLEX Optimization Studio installer file, and move it to the *"./environment/solver/"* folder.
 
 ```bash
 chmod +x install.sh
